@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './index.css'
+import './tailwind.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import ListPage from './pages/ListPage/index.tsx';
 import PokeDetail from './pages/PokeDetail/index.tsx';

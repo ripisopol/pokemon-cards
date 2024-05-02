@@ -28,7 +28,7 @@ const SearchField: React.FC = () => {
         <input
           onChange={(e) => debounced(e.target.value)}
           onBlur={() => setEditing(false)}
-          className="px-4 py-[6px] text-sm rounded-xl"
+          className="px-4 py-[6px] text-sm rounded-xl w-24"
           type="text"
           placeholder="Search..."
         />
